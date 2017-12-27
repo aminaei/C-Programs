@@ -1,0 +1,1 @@
+ls-F /home/am/Classes/SDSU_Fall2017/CS570_OS/Four/Data4/dir | sort -r | tr a-z A-Z > your.outputF

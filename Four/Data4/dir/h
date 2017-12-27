@@ -1,0 +1,5 @@
+#!/bin/csh
+## word frequency program
+
+tr A-Z a-z | tr -sc a-z '\012' |\
+sort | uniq -c | sort -nr

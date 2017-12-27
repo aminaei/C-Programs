@@ -1,0 +1,4 @@
+echo DON'T execute commands with mismatched quotes -- merely report an error!
+echo 'DO make sure you\'ve flushed stdout&stderr before the builtin exec runs'
+exec	/bin/which goback
+echo p2 should NEVER reach this line, if exec worked properly...

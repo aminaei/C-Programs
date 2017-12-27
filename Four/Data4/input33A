@@ -1,0 +1,2 @@
+/bin/ps -o pid= -o comm= | /bin/egrep p2
+exec /bin/ps -o pid= -o comm= | /bin/grep grep

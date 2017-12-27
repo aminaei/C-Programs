@@ -1,0 +1,4 @@
+echo possible EXTRA CREDIT!
+echo (No extra credit if it is not the p2 parent doing the last "tr -d" ... )
+exec echo dog feet | tr o a | tr e o | tr d c | tr t d | tr g t | tr atodcf ADERB | tr -d ' '
+

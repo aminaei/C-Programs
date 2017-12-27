@@ -1,0 +1,1 @@
+</home/am/Classes/CS570_OS/Four/Data1/input1 cat|tr a-z A-Z | tr \\ q > your.outputc

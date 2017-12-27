@@ -1,0 +1,2 @@
+echo redirection has some sanity checks for directories, yes?
+/bin/uname -a >! ../Zero

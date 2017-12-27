@@ -1,0 +1,1 @@
+echo Null;echo		'Void'| tr A-Z a-z | tr d D

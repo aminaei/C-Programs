@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.6)
+#project(p2MakeFile)
+project(p2)
+#project(twopipes)
+#project(Four)
+
+#set(CMAKE_C_STANDARD 99)
+
+#set(SOURCE_FILES pushTB.c)
+#set(SOURCE_FILES TestString.c)
+#set(SOURCE_FILES parseTB2.c getword.c)
+#set(SOURCE_FILES p2.c getword.c)
+#set(SOURCE_FILES p2_IO.c getword.c)
+#set(SOURCE_FILES p2_pipe_IO.c getword.c)
+#set(SOURCE_FILES twopipes_4.c)
+#set(SOURCE_FILES twopipes_4b.c)
+set(SOURCE_FILES twopipes_4c.c)
+#set(SOURCE_FILES twopipes.c)
+#set(SOURCE_FILES twopipes_IO_1.c)
+#set(SOURCE_FILES TB_ls_cd.c getword.c)
+#set(SOURCE_FILES TB_exec.c getword.c)
+
+add_executable(Four ${SOURCE_FILES})
+
+#add_custom_target(p2MakeFile ALL COMMAND make WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
